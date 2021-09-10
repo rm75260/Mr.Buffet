@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/fundo"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomeBuffet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableEnd="@android:drawable/ic_menu_share"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:gravity="start|center_horizontal"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Zook Buum"
+                android:textColor="@color/branco"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/ic_menu_share" />
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/branco"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/localizacaoBuffet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:gravity="start"
+                android:text="São Paulo, SP"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageBuffet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/zookbuum" />
+
+            <TextView
+                android:id="@+id/descricaoBuffet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start|center_horizontal"
+                android:text="Buffet infantil com atrações modernas e atualizadas para crianças e adultos, em um espaço amplo com um serviço de alimentação exclusivo. #ZOOKBUUM #SUAFESTAESTAAQUI"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_continuar_inicio"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_baseline_favorite_24"
+                android:padding="15dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="curtir"
+                android:textAllCaps="true"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_trabalhe_conosco"
+                style="?attr/buttonBarButtonStyle"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_baseline_add_alert_24"
+                android:padding="15dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="solicitar"
+                android:textAllCaps="true"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_ver_mais_sobre"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="veja mais sobre este Buffet..."
+                android:textAllCaps="false"
+                android:textColor="@color/branco"
+                android:textSize="18dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

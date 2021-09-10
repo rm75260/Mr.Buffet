@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324134774285",
+    "project_id": "mr-buffet",
+    "storage_bucket": "mr-buffet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324134774285:android:2354c6cedbbbe95ff5d744",
+        "android_client_info": {
+          "package_name": "com.diow.mrbuffet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324134774285-0abckkfuc0inl1p1j25u4poj28igrk7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj9_pF7L42Kg6NHysLOUFeix6fI1vNxnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324134774285-0abckkfuc0inl1p1j25u4poj28igrk7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

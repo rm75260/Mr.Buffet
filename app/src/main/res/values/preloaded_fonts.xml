@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alice</item>
+        <item>@font/amatica_sc</item>
+        <item>@font/judson_italic</item>
+    </array>
+</resources>

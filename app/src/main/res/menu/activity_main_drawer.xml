@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_tela_inicio"-->
+<!--            android:icon="@drawable/ic_baseline_home_24"-->
+<!--            android:title="Tela de Início" />-->
+
+        <item
+            android:id="@+id/nav_postagens"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Encontrar Buffets" />
+        <item
+            android:id="@+id/nav_favoritados"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Buffets Favoritados" />
+        <item
+            android:id="@+id/nav_solicitados"
+            android:icon="@drawable/ic_baseline_add_alert_24"
+            android:title="Buffets Solicitados" />
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="Trabalhe Conosco" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Sobre nós" />
+    </group>
+</menu>
