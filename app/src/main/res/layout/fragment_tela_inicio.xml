@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/btn_trabalhe_conosco"
-        android:layout_width="335dp"
-        android:layout_height="46dp"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="16dp"
@@ -31,7 +31,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="@drawable/border_button"
@@ -46,9 +46,9 @@
 
     <ImageView
         android:id="@+id/foto_perfil"
-        android:layout_width="244dp"
-        android:layout_height="182dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="290dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_email_usuario"
@@ -71,6 +71,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text="achar sua festa perfeita!"
         android:textColor="@color/corTexto"
         android:textSize="20sp"
