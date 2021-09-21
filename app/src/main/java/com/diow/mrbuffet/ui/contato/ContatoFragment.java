@@ -65,13 +65,12 @@ public class ContatoFragment extends Fragment {
 
         Element titulo = new Element();
         titulo.setTitle("Nunca foi tão fácil anunciar o seu negócio por aqui, o Mr.Buffet te ajudará a dar uma 'alavancada' em sua carreira, " +
-                "divulgamos diariamente buffets de todas as regiões para pessoas do Brasil inteiro, " +
-                "venha e mostre o seu Buffet aqui e ajude a todos terem a festa perfeita! Acesse e " +
-                "inscreva-se em nosso site, com propriedades exclusivas para o gerenciamento de seu anúncio," +
-                " você sempre será notificado dos interessados, podendo fazer reajustes e sempre" +
-                " inovando o atualizamento de seu anúncio.");
-        String descricao = "TEM UMA EMPRESA DE BUFFET E DESEJA ANUNCIÁ-LA AQUI!? saiba mais em " +
-                "nosso site especializado para isto:";
+                "divulgamos diariamente Buffets de todas as regiões para pessoas do Brasil inteiro. " +
+                "Venha e trabalhe conosco, anuncie seu Buffet aqui e ajude a milhares de pessoas à terem a festa perfeita! Acesse e " +
+                "inscreva-se em nosso site, pois somente nele você terá acesso à ferramentas exclusivas para o gerenciamento do seu anúncio."
+                );
+        String descricao = "Tem uma empresa de Buffets e deseja anunciá-la aqui!? saiba mais em " +
+                "nosso site especializado:";
         return new AboutPage(getActivity())
                 //.setImage(R.drawable.logo)
                 .addItem(titulo)

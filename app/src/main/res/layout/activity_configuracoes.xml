@@ -88,7 +88,7 @@
                                 android:inputType="textPersonName" />
 
                             <ImageView
-                                android:id="@+id/alterar_nome"
+                                android:id="@+id/foto_perfil"
                                 android:layout_width="20dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="clip_vertical"

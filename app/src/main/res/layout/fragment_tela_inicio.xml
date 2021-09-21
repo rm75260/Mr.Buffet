@@ -45,13 +45,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
-        android:id="@+id/alterar_nome"
+        android:id="@+id/foto_perfil"
         android:layout_width="244dp"
         android:layout_height="182dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_cadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email_usuario"
         app:srcCompat="@drawable/logo_novo_mr" />
 
     <TextView
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alterar_nome" />
+        app:layout_constraintTop_toBottomOf="@+id/foto_perfil" />
 
     <TextView
         android:id="@+id/textView3"
@@ -80,7 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/localizacaoBuffet" />
 
     <TextView
-        android:id="@+id/tv_cadastrar"
+        android:id="@+id/tv_email_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

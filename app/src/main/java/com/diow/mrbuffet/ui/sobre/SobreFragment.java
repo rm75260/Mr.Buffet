@@ -66,7 +66,7 @@ public class SobreFragment extends Fragment {
                 "da festa perfeita, devido às inúmeras dificuldades que analisamos no dia à dia ao decidirmos" +
                 " buscarmos por opções de buffets mais próximas ou até mesmo um com o preço mais acessível," +
                 " por isso o Mr.Buffet é a melhor opção para a sua celebração." +
-                " Nunca foi tão fácil achar a sua Melhor Festa!!" ;
+                " Nunca foi tão fácil achar a sua Melhor Festa!" ;
         Element versao = new Element();
         versao.setTitle("Versão 1.0.1");
         //return inflater.inflate(R.layout.fragment_sobre, container, false);
@@ -80,7 +80,7 @@ public class SobreFragment extends Fragment {
                 .addGroup("Acompanhe nossas Redes Sociais:")
                 .addInstagram("mrbuffet_app", "Instagram")
                 .addFacebook("MrBuffetapp","Facebook")
-                .addTwitter("medyo80","Twitter")
+                .addTwitter("MrBuffetapp","Twitter")
                 //.addYoutube("UCdPQtdWIsg7_pi4mrRu46vA", "YouTube" )
                 //.addGitHub("medyo", "GitHub")
                 .addGroup("Avalie-nos na PlayStore")

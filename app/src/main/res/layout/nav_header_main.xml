@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/nav_header_height"
+    android:layout_height="200dp"
     android:background="@drawable/degrade_fundo_navegacao"
     android:gravity="bottom"
     android:orientation="vertical"
@@ -13,31 +14,45 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:id="@+id/alterar_nome"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:id="@+id/foto_perfil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:scaleType="fitStart"
         app:srcCompat="@drawable/user9" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableEnd="@drawable/ic_baseline_edit_24"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/navegacao_titulo"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/corTextoClaro"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:drawableRight="@drawable/ic_baseline_edit_24" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nome_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="@string/navegacao_titulo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/corTextoClaro"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="230dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_cadastrar"
+        android:id="@+id/tv_email_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/navegacao_email"
         android:textColor="@color/corTextoClaro"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
 </LinearLayout>

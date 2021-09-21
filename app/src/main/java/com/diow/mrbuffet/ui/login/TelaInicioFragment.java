@@ -28,10 +28,12 @@ public class TelaInicioFragment extends AppCompatActivity {
 
         btn_continuar_inicio.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent abrirTelaDeLogin = new Intent(TelaInicioFragment.this, LoginActivity.class);
-                startActivity(abrirTelaDeLogin);
-                finish();
+            public void onClick(View view) {
+
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+//                Intent abrirTelaDeLogin = new Intent(TelaInicioFragment.this, LoginActivity.class);
+//                startActivity(abrirTelaDeLogin);
+//                finish();
             }
         });
 
